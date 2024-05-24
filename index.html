@@ -1,203 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare Website</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Healthcare Website</title>
-  <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <!--nav section starts-->
-  <nav>
-    <div class="container">
-      <div class="logo">
-        <h1 style="color: #05445e">Digi<span>Health</span></h1>
+  <body>
+    <!--nav section starts-->
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <h1 style="color: #05445e">Digi<span>Health</span></h1>
+        </div>
+        <div class="container-wrap">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#blogs">Blogs</a>
+          <a href="#contact">Contact</a>
+          <button id="signupBtn">SignUp</button>
+        </div>
       </div>
-      <div class="container-wrap">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#blogs">Blogs</a>
-        <a href="#contact">Contact</a>
-        <button id="signupBtn">SignUp</button>
+    </nav>
+    <!--nav section sends here-->
+
+    <!--hero section starts-->
+    <div class="hero-section" id="home">
+      <div class="hero-wrapper">
+        <div class="hero-img">
+          <img src="./assets/images/myimg3.png" alt="heroimg" />
+        </div>
+        <div class="hero-content">
+          <h1>Healthy <span>Life</span></h1>
+          <p>Connecting You To<br />a Healthier Tomorrow</p>
+          <button>Virtual Assistance</button>
+        </div>
       </div>
     </div>
-  </nav>
-  <!--nav section sends here-->
+    <!--hero section ends here-->
 
-  <!--hero section starts-->
-  <div class="hero-section" id="home">
-    <div class="hero-wrapper">
-      <div class="hero-img">
-        <img src="./assets/images/myimg3.png" alt="heroimg" />
-      </div>
-      <div class="hero-content">
-        <h1>Healthy <span>Life</span></h1>
-        <p>Connecting You To<br />a Healthier Tomorrow</p>
-        <button>Virtual Assistance</button>
+    <div class="service-container" id="services">
+      <h1>Services We Offer</h1>
+      <div class="service-wrapper">
+        <div class="card1">
+          <h1>BMI Calculator</h1>
+          <button>Explore</button>
+        </div>
+
+        <div class="card2">
+          <h1>Health Report</h1>
+          <button>Explore</button>
+        </div>
+
+        <div class="card3">
+          <h1>Medicines</h1>
+          <button>Explore</button>
+        </div>
+
+        <div class="card4">
+          <h1>Health Tips</h1>
+          <button>Explore</button>
+        </div>
+
+        <div class="card5">
+          <h1>Virtual Assistance</h1>
+          <button>Explore</button>
+        </div>
+
+        <div class="card5">
+          <h1>Health Trackers</h1>
+          <button>Explore</button>
+        </div>
+
+        <div class="card5">
+          <h1>Virtual Assistance</h1>
+          <button>Explore</button>
+        </div>
+
+        <div class="card5">
+          <h1>Virtual Assistance</h1>
+          <button>Explore</button>
+        </div>
       </div>
     </div>
-  </div>
-  <!--hero section ends here-->
+    <!--blogs section starts here-->
+    <div class="blogs-container" id="blogs">
+      <h1>What Experts says</h1>
+      <div class="blogs-wrapper">
+        <div class="card1">
+          <h1>Heart Care</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            suscipit omnis sit perspiciatis ut nam possimus iure harum
+            recusandae animi.
+          </p>
+          <button>Explore</button>
+        </div>
 
-  <div class="service-container" id="services">
-    <h1>Services We Offer</h1>
-    <div class="service-wrapper">
-      <div class="card1">
-        <h1>BMI Calculator</h1>
-        <button>Explore</button>
-      </div>
+        <div class="card2">
+          <h1>Health Report</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            molestiae consectetur omnis laudantium perspiciatis error, ab minus
+            eligendi voluptate iure.
+          </p>
+          <button>Explore</button>
+        </div>
 
-      <div class="card2">
-        <h1>Health Report</h1>
-        <button>Explore</button>
-      </div>
+        <div class="card3">
+          <h1>Medicines</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
+            culpa totam itaque numquam sit delectus aliquam! Deleniti architecto
+            hic officia.
+          </p>
+          <button>Explore</button>
+        </div>
 
-      <div class="card3">
-        <h1>Medicines</h1>
-        <button>Explore</button>
-      </div>
+        <div class="card4">
+          <h1>Health Tips</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+            obcaecati non ea soluta sequi enim quos magni, voluptas doloremque
+            distinctio?
+          </p>
+          <button>Explore</button>
+        </div>
 
-      <div class="card4">
-        <h1>Health Tips</h1>
-        <button>Explore</button>
-      </div>
+        <div class="card5">
+          <h1>Virtual Assistance</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Doloremque, porro asperiores facilis illo quae beatae soluta eveniet
+            amet ratione consequuntur.
+          </p>
+          <button>Explore</button>
+        </div>
 
-      <div class="card5">
-        <h1>Virtual Assistance</h1>
-        <button>Explore</button>
-      </div>
+        <div class="card6">
+          <h1>Health Trackers</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sed
+            tempora quam. Eius neque enim asperiores, autem cupiditate quos
+            velit.
+          </p>
+          <button>Explore</button>
+        </div>
 
-      <div class="card5">
-        <h1>Health Trackers</h1>
-        <button>Explore</button>
-      </div>
+        <div class="card7">
+          <h1>Virtual Assistance</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            tempora asperiores enim ad dolor temporibus doloremque perferendis
+            hic fugit sed!
+          </p>
+          <button>Explore</button>
+        </div>
 
-      <div class="card5">
-        <h1>Virtual Assistance</h1>
-        <button>Explore</button>
-      </div>
-
-      <div class="card5">
-        <h1>Virtual Assistance</h1>
-        <button>Explore</button>
+        <div class="card8">
+          <h1>Virtual Assistance</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            vitae quae amet nesciunt rerum aliquam temporibus, pariatur hic.
+            Eligendi, necessitatibus!
+          </p>
+          <button>Explore</button>
+        </div>
+        <div class="card9">
+          <h1>Virtual Assistance</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            provident ratione at vero magnam, vel consectetur nesciunt laborum
+            minima sapiente!
+          </p>
+          <button>Explore</button>
+        </div>
       </div>
     </div>
-  </div>
-  <!--blogs section starts here-->
-  <div class="blogs-container" id="blogs">
-    <h1>What Experts says</h1>
-    <div class="blogs-wrapper">
-      <div class="card1">
-        <h1>BMI Calculator</h1>
-        <button>Explore</button>
-      </div>
-
-      <div class="card2">
-        <h1>Health Report</h1>
-        <button>Explore</button>
-      </div>
-
-      <div class="card3">
-        <h1>Medicines</h1>
-        <button>Explore</button>
-      </div>
-
-      <div class="card4">
-        <h1>Health Tips</h1>
-        <button>Explore</button>
-      </div>
-
-      <div class="card5">
-        <h1>Virtual Assistance</h1>
-        <button>Explore</button>
-      </div>
-
-      <div class="card5">
-        <h1>Health Trackers</h1>
-        <button>Explore</button>
-      </div>
-
-      <div class="card5">
-        <h1>Virtual Assistance</h1>
-        <button>Explore</button>
-      </div>
-
-      <div class="card5">
-        <h1>Virtual Assistance</h1>
-        <button>Explore</button>
+    <!--footer section starts here-->
+    <div class="footer" id="contact">
+      <div class="footer-container">
+        <div class="links1">
+          <h1>Our Services</h1>
+          <a href="#">Team</a>
+          <a href="#">Policy</a>
+          <a href="#">Branches</a>
+          <a href="#">Privacy of use</a>
+        </div>
+        <div class="links2">
+          <h1>Our Clients</h1>
+          <a href="#">Branding</a>
+          <a href="#">Addiction Treatment</a>
+          <a href="#">Hospitals and Health Systems</a>
+          <a href="#">Long-Term Care</a>
+        </div>
+        <div class="footer-form">
+          <h1>Contact-Us</h1>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" name="email" placeholder="Your Email" />
+          <textarea name="msg" id="msg">Your Message</textarea>
+          <button type="submit" class="btn">Submit</button>
+        </div>
       </div>
     </div>
-  </div>
-  <!--footer section starts here-->
-  <div class="footer" id="contact">
-    <div class="footer-container">
-      <div class="links1">
-        <h1>Our Services</h1>
-        <a href="#">Team</a>
-        <a href="#">Policy</a>
-        <a href="#">Branches</a>
-        <a href="#">Privacy of use</a>
-      </div>
-      <div class="links2">
-        <h1>Our Clients</h1>
-        <a href="#">Branding</a>
-        <a href="#">Addiction Treatment</a>
-        <a href="#">Hospitals and Health Systems</a>
-        <a href="#">Long-Term Care</a>
-      </div>
-      <div class="footer-form">
-        <h1>Contact-Us</h1>
-        <input type="text" placeholder="Your Name" />
-        <input type="email" name="email" placeholder="Your Email" />
-        <textarea name="msg" id="msg">Your Message</textarea>
-        <button type="submit" class="btn">Submit</button>
+    <div class="social-icons">
+      <div class="icons">
+        <i class="fa-brands fa-linkedin social-icon"></i>
+        <i class="fa-brands fa-square-twitter social-icon"></i>
+        <i class="fa-brands fa-facebook social-icon"></i>
+        <i class="fa-brands fa-square-instagram social-icon"></i>
+        <i class="fa-brands fa-youtube social-icon"></i>
       </div>
     </div>
-  </div>
-  <div class="social-icons">
-    <div class="icons">
-      <i class="fa-brands fa-linkedin social-icon"></i>
-      <i class="fa-brands fa-square-twitter social-icon"></i>
-      <i class="fa-brands fa-facebook social-icon"></i>
-      <i class="fa-brands fa-square-instagram social-icon"></i>
-      <i class="fa-brands fa-youtube social-icon"></i>
+    <div class="copyright">
+      <p>@copyright 2024 Healthcare Success, LLC. All rights RESERVED.</p>
     </div>
-  </div>
-  <div class="copyright">
-    <p>@copyright 2024 Healthcare Success, LLC. All rights RESERVED.</p>
-  </div>
 
-  <!-- signup form -->
-  <div id="signupModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Sign Up</h2>
+    <!-- signup form -->
+    <div id="signupModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Sign Up</h2>
 
-      <form id="signupForm" action="index.php" method="post">
-        <input type="text" id="username" name="username" required placeholder="Enter Your Name" />
-        <input type="email" id="email" name="email" required placeholder="Enter Your Email" />
-        <input type="number" id="age" name="age" required placeholder="Enter Your Age" />
-        <input type="tel" id="phonenumber" name="phonenumber" required placeholder="Phone Number" />
-         <!-- <input type="radio" name="gender" id="gender">Male
+        <form id="signupForm" action="index.php" method="post">
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+            placeholder="Enter Your Name"
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter Your Email"
+          />
+          <input
+            type="number"
+            id="age"
+            name="age"
+            required
+            placeholder="Enter Your Age"
+          />
+          <input
+            type="tel"
+            id="phonenumber"
+            name="phonenumber"
+            required
+            placeholder="Phone Number"
+          />
+          <!-- <input type="radio" name="gender" id="gender">Male
          <input type="radio" name="gender" id="gender">Female -->
-        <input type="password" id="password" name="password" required placeholder="Password" />
-        <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password" />
-        <button type="submit" class="btn1">Sign Up</button>
-      </form>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Password"
+          />
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            required
+            placeholder="Confirm Password"
+          />
+          <button type="submit" class="btn1">Sign Up</button>
+          <a href="#" class="login">Already a user? Login</a>
+        </form>
+      </div>
     </div>
-  </div>
-  <!-- signup form -->
+    <!-- signup form -->
 
-  <script src="./scripts/script.js"></script>
-</body>
-
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
-
 
 <!-- Changed by suraj -->
 <!--changed by poulomi-->
