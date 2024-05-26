@@ -1,0 +1,184 @@
+/* Responsive CSS for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+    .container-wrap {
+      width: 100%;
+      border-radius: 0;
+      margin-top: 20px;
+    }
+    .container-wrap button {
+      margin-left: 0;
+      width: 100%;
+      border-radius: 0;
+    }
+    .hero-wrapper {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .hero-img img {
+      width: 100%;
+      height: auto;
+    }
+    .hero-content h1 {
+      font-size: 50px;
+      margin-top: 100px;
+    }
+    .hero-content p {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    .hero-content button {
+      margin-top: 50px;
+      width: 100%;
+      font-size: 20px;
+    }
+    .service-container {
+      margin-top: 100px;
+      height: auto;
+    }
+    .service-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .service-wrapper div {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .service-wrapper button {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .blogs-container {
+      margin-top: 50px;
+    }
+    .blogs-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .blogs-wrapper div {
+      width: 100%;
+      height: auto;
+    }
+    .footer-container input {
+      width: 100%;
+    }
+    .footer-form textarea {
+      width: 100%;
+    }
+  }
+
+
+  /* Responsive CSS for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container-wrap {
+      width: 400px;
+    }
+    .hero-wrapper {
+      gap: 100px;
+    }
+    .hero-img img {
+      width: 400px;
+      height: 400px;
+    }
+    .hero-content h1 {
+      font-size: 70px;
+      margin-top: 120px;
+    }
+    .hero-content p {
+      font-size: 28px;
+      margin-top: 30px;
+    }
+    .hero-content button {
+      margin-top: 80px;
+      width: 400px;
+      font-size: 24px;
+    }
+    .service-container {
+      margin-top: 120px;
+    }
+    .service-wrapper {
+      gap: 20px;
+    }
+    .service-wrapper div {
+      width: 200px;
+    }
+    .service-wrapper button {
+      margin-top: 50px;
+      width: 180px;
+      font-size: 18px;
+    }
+    .blogs-container {
+      margin-top: 80px;
+    }
+    .blogs-wrapper {
+      gap: 20px;
+    }
+    .blogs-wrapper div {
+      width: 300px;
+      height: 150px;
+    }
+    .footer-container input {
+      width: 400px;
+    }
+    .footer-form textarea {
+      width: 400px;
+    }
+  }
+  
+  /* Responsive CSS for Desktop Windows */
+  @media only screen and (min-width: 1025px) {
+    .container-wrap {
+      width: 500px;
+    }
+    .hero-wrapper {
+      gap: 200px;
+    }
+    .hero-img img {
+      width: 630px;
+      height: 640px;
+    }
+    .hero-content h1 {
+      font-size: 100px;
+      margin-top: 150px;
+    }
+    .hero-content p {
+      font-size: 38px;
+      margin-top: 50px;
+    }
+    .hero-content button {
+      margin-top: 100px;
+      width: 500px;
+      font-size: 30px;
+    }
+    .service-container {
+      margin-top: 150px;
+    }
+    .service-wrapper {
+      gap: 30px;
+    }
+    .service-wrapper div {
+      width: 250px;
+    }
+    .service-wrapper button {
+      margin-top: 100px;
+      width: 210px;
+      font-size: 20px;
+    }
+    .blogs-container {
+      margin-top: 10px;
+    }
+    .blogs-wrapper {
+      gap: 30px;
+    }
+    .blogs-wrapper div {
+      width: 350px;
+      height: 180px;
+    }
+    .footer-container input {
+      width: 500px;
+    }
+    .footer-form textarea {
+      width: 500px;
+    }
+  }

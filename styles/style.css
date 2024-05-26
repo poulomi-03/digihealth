@@ -143,34 +143,62 @@ html {
   /* border: 5px solid red; */
 }
 
-.service-wrapper div {
+.service-wrapper .card {
   width: 250px;
   background-color: #05445e;
-  height: auto;
-  color: #fff;
-  font-size: smaller;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
   text-align: center;
   border-radius: 10px;
+  color: #fff;
+  /* border: 2px solid red; */
 }
 
-.service-wrapper h1 {
+.card .card-img{
+  width: 250px;
+  height: 60%;
+  border-radius: 10px;
+  border-bottom: 1px solid #fff;
+  /* border: 2px solid red; */
+}
+
+.card-img img{
+  width: 50%;
+  height: 60%;
+  object-fit: contain;
+  margin-top: 30px;
+  /* border: 2px solid yellow; */
+}
+
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 0;
+  height: 40%;
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  /* border: 2px solid lightgreen; */
+}
+
+.card .card-content h1 {
   font-size: 20px;
-  margin-top: 100px;
-  border-bottom: 1px solid #75e6da;
-  margin-right: 20px;
-  margin-left: 20px;
-  padding-bottom: 10px;
+  /* border-bottom: 1px solid #75e6da; */
 }
 
-.service-wrapper button {
-  margin-top: 100px;
-  width: 210px;
-  height: 50px;
+.card .card-content button {
+  width: 190px;
+  height: 40px;
   background-color: #75e6da;
-  margin-bottom: 10px;
   font-size: 20px;
   font-weight: 700;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .service-wrapper button:hover {
@@ -178,17 +206,19 @@ html {
 }
 
 /* services section ends here  */
+
+
 /* blogs section starts here */
 
 .blogs-container {
   margin-top: 10px;
-  border: 2px solid blue;
   height: 700px;
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   align-content: center;
+    /* border: 2px solid blue; */
 }
 
 .blogs-wrapper {
@@ -198,7 +228,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   justify-content: space-between;
-  border: 5px solid red;
+  /* border: 1px solid red; */
 }
 
 .blogs-wrapper div {
@@ -206,11 +236,29 @@ html {
   background-color: #05445e;
   height: 180px;
   color: #fff;
-  font-size: smaller;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  align-content: start;
+  gap: 7px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
+
+.blogs-wrapper div button{
+  background-color: #75e6da;
+  border-radius: 5px;
+  float: right;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 70%;
+}
+
+/* blogs section ends here  */
+
 
 /* footer section starts here  */
 
