@@ -227,13 +227,13 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   justify-content: space-between;
-  /* border: 1px solid red; */
+  /* border: 2px solid red; */
 }
 
-.blogs-wrapper div {
+.blogs-wrapper .card {
   width: 350px;
-  background-color: #05445e;
   height: 180px;
+  background-color: #05445e;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -244,17 +244,27 @@ html {
   border-bottom-left-radius: 15px;
   padding-left: 10px;
   padding-top: 10px;
+  /* border: 2px solid yellow; */
 }
 
-.blogs-wrapper div button {
+.blogs-wrapper .card div{
+  width: 330px;
+  height: 90px;
+  display: flex;
+  align-items: start;
+  align-content: start;
+  gap: 5px;
+  /* border: 2px solid red; */
+}
+
+.blogs-wrapper .card button{
   background-color: #75e6da;
   border-radius: 5px;
-  float: right;
   color: #000;
-  font-weight: 700;
-  cursor: pointer;
+  font-weight: 600;
   margin-left: 70%;
 }
+
 
 /* blogs section ends here  */
 
