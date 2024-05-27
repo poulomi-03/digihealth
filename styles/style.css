@@ -157,7 +157,7 @@ html {
   /* border: 2px solid red; */
 }
 
-.card .card-img{
+.card .card-img {
   width: 250px;
   height: 60%;
   border-radius: 10px;
@@ -165,7 +165,7 @@ html {
   /* border: 2px solid red; */
 }
 
-.card-img img{
+.card-img img {
   width: 50%;
   height: 60%;
   object-fit: contain;
@@ -173,7 +173,7 @@ html {
   /* border: 2px solid yellow; */
 }
 
-.card .card-content{
+.card .card-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,7 +207,6 @@ html {
 
 /* services section ends here  */
 
-
 /* blogs section starts here */
 
 .blogs-container {
@@ -218,7 +217,7 @@ html {
   gap: 30px;
   align-items: center;
   align-content: center;
-    /* border: 2px solid blue; */
+  /* border: 2px solid blue; */
 }
 
 .blogs-wrapper {
@@ -247,7 +246,7 @@ html {
   padding-top: 10px;
 }
 
-.blogs-wrapper div button{
+.blogs-wrapper div button {
   background-color: #75e6da;
   border-radius: 5px;
   float: right;
@@ -258,7 +257,6 @@ html {
 }
 
 /* blogs section ends here  */
-
 
 /* footer section starts here  */
 
@@ -427,7 +425,7 @@ input[type="password"]::placeholder {
   margin-bottom: 30px;
   color: #05445e;
 }
-.modal-content a{
+.modal-content a {
   text-decoration: none;
   color: #05445e;
   text-align: center;
