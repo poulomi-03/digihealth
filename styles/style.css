@@ -270,16 +270,23 @@ html {
 
 /* footer section starts here  */
 
+.footer{
+  /* border: 2px solid red; */
+  height: 60vh;
+}
+
 .footer-container {
   background-color: #05445e;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 48vh;
+  height: 55vh;
+  /* border: 2px solid blue; */
 }
 
 .links1 {
   margin-left: 30px;
+  /* border: 2px solid red; */
 }
 
 .links1 a {
@@ -289,6 +296,7 @@ html {
   margin-top: 10px;
   font-family: italic;
   font-size: 20px;
+  /* border: 2px solid red; */
 }
 
 .links2 a {
@@ -298,11 +306,13 @@ html {
   margin-top: 10px;
   font-family: italic;
   font-size: 20px;
+  /* border: 2px solid red; */
 }
 
 .links1 a:hover {
   text-decoration: underline;
 }
+
 .links2 a:hover {
   text-decoration: underline;
 }
@@ -314,7 +324,10 @@ html {
 .footer-form {
   display: grid;
   margin-right: 50px;
+  height: 55vh;
+  /* border: 2px solid red; */
 }
+
 
 input[type="text"]::placeholder {
   color: black;
@@ -327,6 +340,7 @@ input[type="email"]::placeholder {
   font-size: 0.8rem;
   padding-left: 10px;
 }
+
 input[type="number"]::placeholder {
   color: black;
   font-size: 0.8rem;
@@ -344,6 +358,7 @@ input[type="password"]::placeholder {
   font-size: 0.8rem;
   padding-left: 10px;
 }
+
 .footer-form textarea {
   color: #000;
   font-size: 1.1rem;
@@ -352,8 +367,8 @@ input[type="password"]::placeholder {
 }
 
 .footer-container input {
-  width: 500px;
-  height: 40px;
+  width: 400px;
+  height: 50px;
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -375,15 +390,17 @@ input[type="password"]::placeholder {
   padding: 5px;
 }
 
-.social-icons {
+.footer .social-icons {
   background-color: #05445e;
   font-size: 3rem;
+  /* border: 2px solid green; */
 }
 
-.icons {
+.social-icons .icons {
   margin-left: 20px;
   color: whitesmoke;
   opacity: 0.8;
+  /* border: 2px solid green; */
 }
 
 .icons :hover {
@@ -431,16 +448,19 @@ input[type="password"]::placeholder {
   box-shadow: 0 4px 8px 0 rgba(170, 180, 242, 0.4),
     0 6px 20px 0 rgba(51, 108, 205, 0.4);
 }
+
 .modal-content h2 {
   margin-bottom: 30px;
   color: #05445e;
 }
+
 .modal-content a {
   text-decoration: none;
   color: #05445e;
   text-align: center;
   margin-top: 10px;
 }
+
 .close {
   color: #05445e;
   float: right;
